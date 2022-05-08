@@ -41,45 +41,49 @@ namespace JuanAvilaPrueba
             // 
             this.selectFechaNacimiento.CustomFormat = "yyyy-mm-dd";
             this.selectFechaNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.selectFechaNacimiento.Location = new System.Drawing.Point(342, 189);
+            this.selectFechaNacimiento.Location = new System.Drawing.Point(362, 146);
             this.selectFechaNacimiento.Name = "selectFechaNacimiento";
             this.selectFechaNacimiento.Size = new System.Drawing.Size(100, 20);
             this.selectFechaNacimiento.TabIndex = 55;
+            this.selectFechaNacimiento.ValueChanged += new System.EventHandler(this.selectFechaNacimiento_ValueChanged);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(183, 190);
+            this.label9.Location = new System.Drawing.Point(203, 147);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(153, 19);
             this.label9.TabIndex = 56;
             this.label9.Text = "Fecha de nacimiento";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(270, 155);
+            this.label1.Location = new System.Drawing.Point(290, 112);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 19);
             this.label1.TabIndex = 57;
             this.label1.Text = "Nombre";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(342, 157);
+            this.txtNombre.Location = new System.Drawing.Point(362, 114);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 58;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Lato", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(300, 72);
+            this.label4.Location = new System.Drawing.Point(312, 59);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(179, 33);
             this.label4.TabIndex = 59;
@@ -91,7 +95,7 @@ namespace JuanAvilaPrueba
             this.btnCrear.BackColor = System.Drawing.Color.SpringGreen;
             this.btnCrear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCrear.ForeColor = System.Drawing.Color.Gray;
-            this.btnCrear.Location = new System.Drawing.Point(306, 250);
+            this.btnCrear.Location = new System.Drawing.Point(316, 186);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.Size = new System.Drawing.Size(173, 27);
             this.btnCrear.TabIndex = 60;

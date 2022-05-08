@@ -46,5 +46,25 @@ namespace JuanAvilaPrueba
         {
             Helpers.WindowProperties(this);
         }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void selectFechaNacimiento_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

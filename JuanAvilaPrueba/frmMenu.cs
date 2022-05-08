@@ -20,7 +20,7 @@ namespace JuanAvilaPrueba
 
         private void crearToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Helpers.CloseMdiChild(this);
+            Helpers.CloseMdiChild(this,label1,label2);
             frmCrearPersona crearPersona = new frmCrearPersona();
             crearPersona.MdiParent = this;
             crearPersona.Show();
@@ -28,7 +28,7 @@ namespace JuanAvilaPrueba
 
         private void mostrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Helpers.CloseMdiChild(this);
+            Helpers.CloseMdiChild(this, label1, label2);
             frmMostrarPersonas mostrarPersonas = new frmMostrarPersonas();
             mostrarPersonas.MdiParent = this;
             mostrarPersonas.Show();
@@ -36,7 +36,7 @@ namespace JuanAvilaPrueba
 
         private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Helpers.CloseMdiChild(this);
+            Helpers.CloseMdiChild(this, label1, label2);
             frmEliminarPersona eliminarPersona = new frmEliminarPersona();
             eliminarPersona.MdiParent = this;
             eliminarPersona.Show();
@@ -44,7 +44,7 @@ namespace JuanAvilaPrueba
 
         private void actualizarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Helpers.CloseMdiChild(this);
+            Helpers.CloseMdiChild(this, label1, label2);
             frmActualizarPersona actualizarPersona = new frmActualizarPersona();
             actualizarPersona.MdiParent = this;
             actualizarPersona.Show();

@@ -43,10 +43,12 @@ namespace JuanAvilaPrueba
             form.Icon = Properties.Resources.favicon;
         }
 
-        public static void CloseMdiChild(Form form)
+        public static void CloseMdiChild(Form form, Label label1, Label label2)
         {
             if (form.ActiveMdiChild != null)
                 form.ActiveMdiChild.Close();
+            label1.Dispose();
+            label2.Dispose();
         }
     }
 }

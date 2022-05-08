@@ -52,7 +52,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationFramework" />
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -74,22 +76,22 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsJAPrueba.xsd</DependentUpon>
     </Compile>
-    <Compile Include="frmActualizarPersona.cs">
+    <Compile Include="PersonaCRUD\frmActualizarPersona.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmActualizarPersona.Designer.cs">
+    <Compile Include="PersonaCRUD\frmActualizarPersona.Designer.cs">
       <DependentUpon>frmActualizarPersona.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCrearPersona.cs">
+    <Compile Include="PersonaCRUD\frmCrearPersona.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCrearPersona.Designer.cs">
+    <Compile Include="PersonaCRUD\frmCrearPersona.Designer.cs">
       <DependentUpon>frmCrearPersona.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmEliminarPersona.cs">
+    <Compile Include="PersonaCRUD\frmEliminarPersona.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEliminarPersona.Designer.cs">
+    <Compile Include="PersonaCRUD\frmEliminarPersona.Designer.cs">
       <DependentUpon>frmEliminarPersona.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMenu.cs">
@@ -98,28 +100,28 @@
     <Compile Include="frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMostrarPersonas.cs">
+    <Compile Include="PersonaCRUD\frmMostrarPersonas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMostrarPersonas.Designer.cs">
+    <Compile Include="PersonaCRUD\frmMostrarPersonas.Designer.cs">
       <DependentUpon>frmMostrarPersonas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilidades\Helpers.cs" />
-    <EmbeddedResource Include="frmActualizarPersona.resx">
+    <EmbeddedResource Include="PersonaCRUD\frmActualizarPersona.resx">
       <DependentUpon>frmActualizarPersona.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCrearPersona.resx">
+    <EmbeddedResource Include="PersonaCRUD\frmCrearPersona.resx">
       <DependentUpon>frmCrearPersona.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmEliminarPersona.resx">
+    <EmbeddedResource Include="PersonaCRUD\frmEliminarPersona.resx">
       <DependentUpon>frmEliminarPersona.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMostrarPersonas.resx">
+    <EmbeddedResource Include="PersonaCRUD\frmMostrarPersonas.resx">
       <DependentUpon>frmMostrarPersonas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -163,9 +165,6 @@
     <None Include="Resources\favicon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\appicon.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="favicon.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -180,5 +179,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
