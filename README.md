@@ -11,3 +11,5 @@ Funciones de la aplicación:
   • Eliminar cualquiera de los registros.
   
   Con estas cuatro funciones, puedo afirmar que la aplicación cuenta con todas las capabilidades que debe ofrecer una aplicación de tipo CRUD
+  
+  Nota: Como puede observarse en otros proyectos de mi GitHub, tambien tengo los conocimientos necesarios para realizar la aplicación haciendo uso de ADO.NET
