@@ -11,5 +11,4 @@ C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaP
 C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaPrueba.frmEliminarPersona.resources
 C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaPrueba.frmMostrarPersonas.resources
 C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaPrueba.frmActualizarPersona.resources
-C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaPrueba.csproj.AssemblyReference.cache
 C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\bin\Debug\cstrings.config

@@ -16,6 +16,7 @@ namespace JuanAvilaPrueba
         {
             InitializeComponent();
             this.Icon = Properties.Resources.favicon;
+            this.Text = "Menu Principal";
         }
 
         private void crearToolStripMenuItem_Click(object sender, EventArgs e)
