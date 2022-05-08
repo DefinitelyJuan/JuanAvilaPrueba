@@ -1,4 +1,3 @@
-C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaPrueba.csproj.AssemblyReference.cache
 C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaPrueba.frmCrearPersona.resources
 C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaPrueba.frmMenu.resources
 C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaPrueba.Properties.Resources.resources
@@ -13,3 +12,4 @@ C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaP
 C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\bin\Debug\cstrings.config
 C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaPrueba.frmMostrarPersonas.resources
 C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaPrueba.frmActualizarPersona.resources
+C:\Users\moroc\source\repos\JuanAvilaPrueba\JuanAvilaPrueba\obj\Debug\JuanAvilaPrueba.csproj.AssemblyReference.cache
