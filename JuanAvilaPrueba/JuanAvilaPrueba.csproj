@@ -59,6 +59,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsJAPrueba.xsd</DependentUpon>
     </Compile>
+    <Compile Include="frmActualizarPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmActualizarPersona.Designer.cs">
+      <DependentUpon>frmActualizarPersona.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCrearPersona.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilidades\Helpers.cs" />
+    <EmbeddedResource Include="frmActualizarPersona.resx">
+      <DependentUpon>frmActualizarPersona.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCrearPersona.resx">
       <DependentUpon>frmCrearPersona.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +146,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appicon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -15,6 +15,7 @@ namespace JuanAvilaPrueba
         public frmCrearPersona()
         {
             InitializeComponent();
+            this.Text = "Crear Persona";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -22,17 +23,23 @@ namespace JuanAvilaPrueba
             PersonaTableAdapter persona = new PersonaTableAdapter();
             IFormatProvider format = System.Globalization.CultureInfo.GetCultureInfo("en-Us").DateTimeFormat;
             string dob = (selectFechaNacimiento.Value).ToString("yyyy-MM-dd", format);
-            int response = persona.Insert(txtNombre.Text, DateTime.Parse(dob));
-            if (response > 0)
+            try
             {
-                MessageBox.Show("Persona Insertada");
-                Helpers.ClearFormControls(this);
+                int response = persona.Insert(txtNombre.Text, DateTime.Parse(dob));
+                if (response > 0)
+                {
+                    MessageBox.Show("Persona insertada correctamente");
+                    Helpers.ClearFormControls(this);
+                }
+                else
+                {
+                    MessageBox.Show("Error en la inserción del registro, verifique los datos ingresados");
+                }
             }
-            else
+            catch (Exception err)
             {
-                MessageBox.Show("Error en la inserción del cliente, verifique los datos ingresados");
-            }
-            
+                MessageBox.Show($"Ocurrio un error: {err.Message}");
+            }                        
         }
 
         private void frmCrearPersona_Load(object sender, EventArgs e)

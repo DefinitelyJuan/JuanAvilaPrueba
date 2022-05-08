@@ -15,12 +15,22 @@ namespace JuanAvilaPrueba
         public frmMostrarPersonas()
         {
             InitializeComponent();
+            this.Text = "Mostrar Personas";
         }
 
         private void frmMostrarPersonas_Load(object sender, EventArgs e)
         {
             // TODO: esta línea de código carga datos en la tabla 'dsJAPrueba.Persona' Puede moverla o quitarla según sea necesario.
-            this.personaTableAdapter.Fill(this.dsJAPrueba.Persona);
+            try
+            {
+                this.personaTableAdapter.Fill(this.dsJAPrueba.Persona);
+
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show($"Ocurrio un error: {err.Message}");
+            }
+
             Helpers.WindowProperties(this);
         }
     }

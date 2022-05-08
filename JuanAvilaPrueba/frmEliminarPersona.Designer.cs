@@ -40,7 +40,7 @@ namespace JuanAvilaPrueba
             this.btnEliminar.BackColor = System.Drawing.Color.SpringGreen;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.ForeColor = System.Drawing.Color.Gray;
-            this.btnEliminar.Location = new System.Drawing.Point(316, 178);
+            this.btnEliminar.Location = new System.Drawing.Point(297, 176);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(173, 27);
             this.btnEliminar.TabIndex = 64;
@@ -52,7 +52,7 @@ namespace JuanAvilaPrueba
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Lato", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(301, 57);
+            this.label4.Location = new System.Drawing.Point(281, 58);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(209, 33);
             this.label4.TabIndex = 63;
@@ -61,7 +61,7 @@ namespace JuanAvilaPrueba
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(356, 125);
+            this.txtID.Location = new System.Drawing.Point(342, 124);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(100, 20);
             this.txtID.TabIndex = 62;
@@ -70,7 +70,7 @@ namespace JuanAvilaPrueba
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(325, 125);
+            this.label1.Location = new System.Drawing.Point(311, 124);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(25, 19);
             this.label1.TabIndex = 61;

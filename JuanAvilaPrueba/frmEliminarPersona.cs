@@ -16,6 +16,8 @@ namespace JuanAvilaPrueba
         public frmEliminarPersona()
         {
             InitializeComponent();
+            this.Text = "Eliminar Persona";
+
         }
 
         private void frmEliminarPersona_Load(object sender, EventArgs e)
@@ -34,16 +36,24 @@ namespace JuanAvilaPrueba
                     System.Windows.MessageBoxResult confirmResult = System.Windows.MessageBox.Show($"Esta seguro que desea eliminar a {nombre} de la base de datos?", "Confirmar", System.Windows.MessageBoxButton.YesNo);
                     if (confirmResult == System.Windows.MessageBoxResult.Yes)
                     {
-                        int response = persona.Delete(result);
-                        if (response > 0)
+                        try
                         {
-                            MessageBox.Show("Persona Eliminada");
-                            Helpers.ClearFormControls(this);
+                            int response = persona.Delete(result);
+                            if (response > 0)
+                            {
+                                MessageBox.Show("El registro ha sido eliminado correctamente");
+                                Helpers.ClearFormControls(this);
+                            }
+                            else
+                            {
+                                MessageBox.Show("Error al eliminar el registro");
+                            }
                         }
-                        else
+                        catch (Exception err)
                         {
-                            MessageBox.Show("Error al eliminar");
+                            MessageBox.Show($"Ocurrio un error: {err.Message}");
                         }
+
                     }
                 }
                 else

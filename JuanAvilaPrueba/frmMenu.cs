@@ -41,5 +41,13 @@ namespace JuanAvilaPrueba
             eliminarPersona.MdiParent = this;
             eliminarPersona.Show();
         }
+
+        private void actualizarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Helpers.CloseMdiChild(this);
+            frmActualizarPersona actualizarPersona = new frmActualizarPersona();
+            actualizarPersona.MdiParent = this;
+            actualizarPersona.Show();
+        }
     }
 }

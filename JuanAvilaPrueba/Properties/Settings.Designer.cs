@@ -26,7 +26,8 @@ namespace JuanAvilaPrueba.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("ninguno")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=JuanAvilaPrueba;Integrated Sec" +
+            "urity=True")]
         public string JuanAvilaPruebaConnectionString {
             get {
                 return ((string)(this["JuanAvilaPruebaConnectionString"]));
